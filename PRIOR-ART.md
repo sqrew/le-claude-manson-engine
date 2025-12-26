@@ -60,6 +60,14 @@ Existing osmotic power systems face challenges:
 - Infrastructure costs at river mouths
 - Limited suitable deployment locations
 
+### Related Work
+
+Arias & De Las Heras (2019) proposed using deep-sea brine pools for osmotic power generation in ["On the feasibility of ocean brine pool power stations"](https://onlinelibrary.wiley.com/doi/full/10.1002/er.4708) (International Journal of Energy Research). Their approach relies on **buoyancy of the diluted output stream** — mixing brine with surface water at depth, then allowing the less-dense brackish mixture to rise.
+
+**Our approach differs fundamentally:** We use the osmotic gradient combined with gravity to pull fresh water **downward** through the system. The driving forces (osmotic pressure + gravity) work together in the same direction, and energy is harvested from the **incoming** flow via turbine. This eliminates the need to solve the "how to get water down" problem inherent in buoyancy-based approaches.
+
+We developed this design independently and acknowledge Arias's prior work in establishing the theoretical basis for brine pool energy harvesting.
+
 ---
 
 ## The Innovation
@@ -324,13 +332,15 @@ These concepts are released to the public domain for the benefit of humanity. Ma
 
 ## References
 
-1. Patin, S. et al. (2022). "Discovery of the deep-sea NEOM Brine Pools in the Gulf of Aqaba, Red Sea." Communications Earth & Environment. https://www.nature.com/articles/s43247-022-00482-x
+1. Arias, F.J. & De Las Heras, S. (2019). "On the feasibility of ocean brine pool power stations." International Journal of Energy Research. https://onlinelibrary.wiley.com/doi/full/10.1002/er.4708
 
-2. Wikipedia. "Brine pool." https://en.wikipedia.org/wiki/Brine_pool
+2. Patin, S. et al. (2022). "Discovery of the deep-sea NEOM Brine Pools in the Gulf of Aqaba, Red Sea." Communications Earth & Environment. https://www.nature.com/articles/s43247-022-00482-x
 
-3. Tedesco, M. et al. (2016). "Reverse electrodialysis with saline waters and concentrated brines: A laboratory investigation towards technology scale-up." Journal of Membrane Science.
+3. Wikipedia. "Brine pool." https://en.wikipedia.org/wiki/Brine_pool
 
-4. Guinness World Records. "Highest concentration of deep-sea brine pools." https://www.guinnessworldrecords.com/world-records/716063-highest-concentration-of-deep-sea-brine-pools
+4. Tedesco, M. et al. (2016). "Reverse electrodialysis with saline waters and concentrated brines: A laboratory investigation towards technology scale-up." Journal of Membrane Science.
+
+5. Guinness World Records. "Highest concentration of deep-sea brine pools." https://www.guinnessworldrecords.com/world-records/716063-highest-concentration-of-deep-sea-brine-pools
 
 ---
 
