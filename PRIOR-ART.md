@@ -37,6 +37,7 @@ Key innovations include:
 3. Dual-mode turbine serving as both priming pump and power generator
 4. Modular daisy-chain construction enabling single-vessel maintenance
 5. Exploitation of brine pool anoxic environment for reduced biofouling
+6. Thermoelectric generator integration for "triple-dip" thermal gradient harvesting
 
 ---
 
@@ -207,6 +208,53 @@ The kilometer-plus tube length provides settling time for particulates:
 - By terminus, water has undergone passive clarification
 - Reduces membrane fouling from incoming water
 
+### 9. Thermoelectric Gradient Harvesting (Triple-Dip Architecture)
+
+The transport tube experiences a continuous thermal gradient along its length:
+
+- Surface water enters at ~25°C
+- Deep brine pool temperature: ~4°C or lower
+- Temperature differential: ~21°C across 1,770m
+
+**Innovation:** Integrate thermoelectric generators (TEGs) into the tube walls to harvest this thermal gradient as bonus power generation.
+
+```
+TUBE CROSS-SECTION:
+
+     Warm water inside (descending)
+              ↓
+    ┌─────────────────┐
+    │   PVC PIPE      │ ← Insulating material
+    │  ┌───────────┐  │
+    │  │  [TEG]    │  │ ← Thermoelectric generator embedded in wall
+    │  └───────────┘  │
+    └─────────────────┘
+              ↑
+     Cold seawater outside
+```
+
+**Key insight:** PVC's poor thermal conductivity becomes an advantage. The insulating pipe material forces all heat transfer through the TEG elements, maximizing energy capture per degree of cooling.
+
+**TEG Benefits for Deep-Sea Deployment:**
+- Solid-state (no moving parts)
+- Sealable in marine epoxy (completely waterproof)
+- Pressure-immune (solid objects don't crush)
+- Maintenance-free (no bearings, seals, or wear surfaces)
+- Can be manufactured as part of the pipe itself
+
+**Estimated Power Contribution:**
+For a 5m diameter pipe at ~220 L/s flow rate:
+- Thermal energy available: ~19,300 kW
+- At 3-5% TEG efficiency: **500 kW to 1 MW bonus power**
+- Represents 10-20% additional generation on top of osmotic harvest
+
+The system now harvests from three gradient sources simultaneously:
+1. **Salinity gradient** → PRO membrane + RED
+2. **Pressure gradient** → Turbine
+3. **Thermal gradient** → TEGs
+
+This "triple-dip" architecture maximizes energy extraction from a single infrastructure installation.
+
 ---
 
 ## Technical Specifications
@@ -287,6 +335,7 @@ A single 5-meter diameter installation could generate multiple megawatts continu
 - Dual-mode turbine/generator
 - Coarse intake filter
 - Subsea power cable to shore
+- Optional: TEG-integrated pipe sections for thermal gradient harvesting (10-20% bonus generation)
 
 ### Operational Sequence
 1. Deploy buoy-suspended tube to brine pool
@@ -313,6 +362,10 @@ The following concepts are hereby disclosed as prior art, preventing future pate
 8. Combined PRO + RED "double-dip" harvesting from single gradient source
 9. Passive pre-filtration via extended water column transit time
 10. Near-shore brine pool targeting for reduced infrastructure costs
+11. Thermoelectric generators integrated into osmotic transport tube walls for thermal gradient harvesting
+12. Using insulating pipe material (PVC/HDPE) to force thermal transfer through TEG elements
+13. "Triple-dip" architecture combining salinity, pressure, and thermal gradient harvesting in single system
+14. Solid-state encapsulation of thermoelectric elements in marine epoxy for maintenance-free deep-sea operation
 
 ---
 
